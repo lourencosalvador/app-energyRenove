@@ -13,6 +13,7 @@
 
 body{
     overflow-x: hidden;
+    font-family: 'Poppins';
 }
 
 .base{
@@ -203,7 +204,7 @@ button{
 }
 #card{
     width: 100%;
-    height: 100vh;
+    height: 230vh;
     background: #1c1c1c;
 }
 
@@ -213,7 +214,7 @@ button{
     gap: 20px;
      position: absolute;
      top: 93%;
-     left: 20%;
+     left: 7%;
 }
 
 
@@ -226,4 +227,73 @@ button{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#cards:nth-child(1){
+    background-image: url("../../public/img/pexels-mike-bird-188777.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cards:nth-child(2){
+    background-image: url("../../public/img/pexels-los-muertos-crew-8853507.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#cards:nth-child(3){
+    background-image: url("../../public/img/pexels-gantas-vaičiulėnas-12360542.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cards:nth-child(4){
+    background-image: url("../../public/img/pexels-kindel-media-9800007.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#cards:nth-child(5){
+    background-image: url("../../public/img/pexels-los-muertos-crew-8853539\(1\).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.review {
+    width: 1070px;
+    height: 350px;
+    background-image: url("../../public/img/pexels-los-muertos-crew-8853539\(1\).jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+     position: relative;
+     top: 250px;
+     left: 90px;
+     border-radius: 20px;
+}
+
+#card .sombra {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.sombra h1{
+    color: #ffff;
+    font-size: 50px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+#slider {
+    margin-top: 350px;
+    margin-left: 100px;
+}
+#slider h1{
+    color: #ffff;
 }
